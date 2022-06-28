@@ -16,7 +16,7 @@ public class Projeto {
     private String nome;
     private Date dataInicio;
     private Date fimData;
-    private Date PrivisaoFimData;
+    private Date privisaoFimData;
     private String descricao;
 
     private BigDecimal orcamento;
@@ -27,6 +27,6 @@ public class Projeto {
     private Status status;
 
     @OneToOne
-    private Membro gerente;
+    private Pessoa gerente;
 
 }
